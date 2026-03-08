@@ -1,0 +1,42 @@
+/* Reset simples */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header{
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Área principal */
+#main-home{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+/* H1 */
+#main-home h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    
+}
+
+/* H2 */
+#main-home h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+#header img{
+    width: 100px;
+}
+
+#text-logo{
+    color: aliceblue;
+}
