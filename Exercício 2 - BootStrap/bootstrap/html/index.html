@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Web</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <!-- Logo -->
+      <a id="logo" href="index.html">
+        <img src="./img/logo.png" alt="Logo do site" />
+      </a>
+
+      <!-- Botão Mobile -->
+      <button
+        id="btn-mobile"
+        aria-label="Abrir Menu"
+        aria-controls="menu"
+        aria-expanded="false"
+        aria-haspopup="true"
+      >
+        ☰
+      </button>
+
+      <!-- Navegação -->
+      <nav id="nav">
+        <ul id="menu" role="menu">
+          <li role="none">
+            <a href="index.html" role="menuitem" aria-current="page">Home</a>
+          </li>
+
+          <li role="none">
+            <a href="#" role="menuitem">Sobre</a>
+          </li>
+
+          <li role="none">
+            <a href="#" role="menuitem">Serviços</a>
+          </li>
+
+          <li role="none">
+            <a href="#" role="menuitem">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <!-- Área de texto alternativo -->
+      <section id="hieroglyph" aria-label="Área Texto Alternativo"></section>
+
+      <!-- Carousel -->
+      <section>
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-pause="none"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img
+                src="../Images/banner1.jpg"
+                class="d-block w-100"
+                alt="Banner promocional do site destacando tecnologia"
+              />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="../Images/banner2.jpg"
+                class="d-block w-100"
+                alt="Banner com apresentação dos serviços da empresa"
+              />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="../Images/banner3.jpg"
+                class="d-block w-100"
+                alt="Banner ilustrando soluções digitais modernas"
+              />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="../Images/banner4.jpg"
+                class="d-block w-100"
+                alt="Banner institucional mostrando inovação e tecnologia"
+              />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="../Images/banner5.jpg"
+                class="d-block w-100"
+                alt="Banner com destaque para desenvolvimento web"
+              />
+            </div>
+          </div>
+
+          <!-- Botão Anterior -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+
+          <!-- Botão Próximo -->
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
