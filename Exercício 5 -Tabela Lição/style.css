@@ -1,0 +1,112 @@
+body{
+  margin: 0px;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+
+}
+.img-top {
+  width: 100px;
+  height: auto;
+}
+
+.conteiner{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+} 
+
+h1{
+   text-align: center;
+   margin-bottom: 30px;
+
+
+}
+
+p{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+
+}
+
+.img-top{
+
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 100px;
+  border-radius: 12px;
+}
+
+table{
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 20px;
+ background-color: #fff;
+
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+
+}
+
+thead th {
+
+  background-color: #dcdcdc ;
+  font-weight: bold;
+
+}
+
+thbody td{
+
+  background-color: #f9f9f9;
+
+}
+
+tfoot td{
+
+  background-color: #f9f9f9;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.col-marca{
+  width: 30%;
+}
+
+.col-modelo{
+
+  width: 40%;
+}
+
+.col-ano{
+  width: 30%;
+}
+
+.img-cars{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-cars img{
+  width: 70px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 1px solid #ccc;
+}
+
+.rodape-image {
+ display: block;
+ width: 120px;
+ margin: 25px auto; 
+}
